@@ -1,0 +1,41 @@
+:root{
+--btnOrange:#d1410c;
+--heading: #1e0a3c;
+}
+html{
+    font-style: "Nunito Sans";
+    font-weight: 600;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--heading);
+}
+
+label{
+   font-weight: bold;
+    margin-bottom: 5px;
+}
+button{
+    background-color: var(--btnOrange);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+
+button:hover{
+    opacity: 0.8;
+}
+
+input{
+ border-radius: 4px;
+ outline: none;
+ border: 1px solid rgb(167 149 149);
+ width: 23rem;
+ padding: 10px 2px;
+}
+
+.logo-text{
+    font-weight: 600;
+    color: var(--btnOrange);
+}
